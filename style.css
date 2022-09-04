@@ -1,0 +1,110 @@
+.body{
+    background-image: url("/images/Anime\ Original\ HD\ Wallpaper.jpg");
+    background-size: 100% 100%;
+    background-color: rgb(106, 129, 136);
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+.header{
+    background-color: rgb(141, 141, 141);
+    width: 50%;
+    height: 90%;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 1%;
+    box-shadow: 15px 15px 25px rgb(85, 85, 85);
+}
+.header_text{
+    font-size: 3vw;
+    margin: auto;
+    color: rgb(80, 80, 80);
+    font-style: italic;
+    text-shadow: 3px 5px 10px rgb(214, 214, 214);
+}
+.avatar{
+    margin-top: 5%;
+    width: 5vw;
+    height: 23vw;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 100%;
+    padding: 5px;
+    background: #838383;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.socialnetwork{
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 4%;
+    width: 40vw;
+    height: 9vw;
+    background-color: rgb(106, 129, 136);
+    display: flex;
+    box-shadow: 10px 10px 13px rgb(85, 85, 85);
+}
+
+.logo{
+    margin: auto;
+    width: 8vw;
+    height: 8vw;
+    box-shadow: 3px 3px 10px rgb(60, 60, 60);
+    background-color: rgb(100, 100, 100);
+    border-radius: 50px;
+}
+
+.icons{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 6.6vw;
+    height: 6.6vw;
+    border-radius: 50px;
+}
+.headtext{
+    display: flex;
+}
+
+.header_about{
+    text-align: center;
+    margin-left: 5%;
+    width: 25%;
+    border-radius: 25px;
+    background-color: rgb(106, 129, 136);
+    color: rgb(80, 80, 80);
+    font-style: italic;
+    font-size: 2vw;
+    text-shadow: 3px 5px 10px rgb(214, 214, 214);
+    box-shadow: 3px 3px 10px rgb(60, 60, 60);
+}
+
+
+.header_contact{
+    text-align: center;
+    margin-right: 5%;
+    height: 100%;
+    width: 25%;
+    border-radius: 25px;
+    background-color: rgb(106, 129, 136);
+    color: rgb(80, 80, 80);
+    font-style: italic;
+    font-size: 2vw;
+    text-shadow: 3px 5px 10px rgb(214, 214, 214);
+    box-shadow: 3px 3px 10px rgb(60, 60, 60);
+}
+
+
+.back-text{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2vw;
+    background: rgb(141, 141, 141);
+    color: rgb(0, 0, 0); 
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D;
+}
+
+.back-emoji{
+    margin-left: 10%;
+    font-size: 4vw;
+}
