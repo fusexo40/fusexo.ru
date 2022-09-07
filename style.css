@@ -100,7 +100,7 @@
     margin-left: 10%;
     margin-right: 10%;
     font-size: 2vw;
-    color: rgb(0, 0, 0); 
+    color: rgb(256, 256, 256); 
     letter-spacing: 2px;
     text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D;
 }
@@ -184,6 +184,13 @@
 
 .non_line{
     color: white;
+    text-decoration: none;
+    opacity: 1;
+}
+
+
+.non_line2{
+    color: rgb(153, 153, 153);
     text-decoration: none;
     opacity: 1;
 }
