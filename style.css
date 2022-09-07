@@ -9,11 +9,19 @@
 .header{
     background-color: rgba(81, 57, 219, 50%) ;
     width: 50%;
-    height: 90%;
+    height: auto;
     border-radius: 50px;
     margin: auto;
     margin-top: 1%;
     box-shadow: 15px 15px 25px rgb(155, 85, 177);
+    
+}
+@media (max-width: 768px) { 
+    .header{
+        width: 50%;
+        height: auto;
+        border-radius: 20px;
+    }
 }
 .header_text{
     font-size: 3vw;
@@ -193,4 +201,12 @@
     color: rgb(153, 153, 153);
     text-decoration: none;
     opacity: 1;
+}
+
+
+.button_shift{
+    height: 1%;
+}
+.button_shift_main{
+    height: 2%;
 }
