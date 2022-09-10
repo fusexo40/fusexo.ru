@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif
+}
+
+body {
+    background-color: #666666;
+    overflow: hidden
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media (min-width:560px) {
+    .container {
+        padding: 0 15px
+    }
+}
+
+.container .business-card {
+    width: 640px;
+    height: 400px;
+    border-radius: 1.875rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: rgba(37, 37, 37, 0.24);
+    -webkit-box-shadow: 0px 0px 39px 5px rgba(53, 53, 53, 0.24);
+    box-shadow: 0px 0px 39px 5px rgba(53, 53, 53, 0.24);
+    margin-top: 200px
+}
+
+@media (max-width:768px) {
+    .container .business-card {
+        width: 500px;
+        margin-top: 150px
+    }
+}
+
+@media (max-width:587px) {
+    .container .business-card {
+        width: 400px;
+        margin-top: 140px
+    }
+}
+
+.container .business-card .content-block .avatar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    bottom: 140px
+}
+
+.container .business-card .content-block .avatar img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 39px 5px rgba(77, 86, 124, 0.24);
+    box-shadow: 0px 0px 39px 5px rgba(77, 86, 124, 0.24)
+}
+
+.container .business-card .content-block p {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    position: relative;
+    bottom: 120px
+}
+
+.container .business-card .content-block .line {
+    margin: 0 auto;
+    width: 400px;
+    height: 1px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.236);
+    -webkit-animation: line 1s linear;
+    animation: line 1s linear
+}
+
+@media (max-width:587px) {
+    .container .business-card .content-block .line {
+        width: 300px;
+        -webkit-animation: line587px 1s linear;
+        animation: line587px 1s linear
+    }
+}
+
+.container .business-card .content-block .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top: 20px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+@-webkit-keyframes line {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 400px
+    }
+}
+
+@keyframes line {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 400px
+    }
+}
+
+@-webkit-keyframes line587px {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 300px
+    }
+}
+
+@keyframes line587px {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 300px
+    }
+}
+
+.star0 {
+    height: 1px;
+    width: 1px;
+    opacity: 1;
+    position: absolute
+}
+
+.star1 {
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute
+}
+
+.star2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute
+}
+
+.star3 {
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute
+}
